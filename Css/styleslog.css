@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: #A4E283;
+}
+header{
+    display: flex;
+    background-color: #95B46A;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+header .logo img{
+    height: 70px;
+    margin: 20px 0;
+    width: auto;
+    border-radius: 75px;
+    cursor: pointer;
+    transition: all (0.3s);
+}
+header .logo img:hover{
+    transform: scale(1.1);
+}
+header .nav-link li{
+    display: inline-block;
+    padding: 0 20px;
+    list-style: none;
+}
+header .nav-link li:hover{
+    transform: scale(1.1);
+}
+header .nav-link a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+header .nav-link a:hover{
+    color: rgb(13, 146, 13) ;
+}
+header .btm button{
+    font-weight: 700;
+    color:  white;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: #A3CE67;
+    cursor: pointer;
+    transition: all (0,3s) ease 0s;
+}
+header .btm button:hover{
+    background-color: #88ce27;
+    color: rgb(13, 146, 13);
+    transform: scale(1.1);
+}
+footer {
+    background-color: #32a852;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+footer a:hover {
+    color: #92dd94;
+}
+.social-icons {
+    margin-top: 15px;
+}
+.social-icons i {
+    margin: 0 8px;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+.social-icons i:hover {
+    transform: scale(1.2);
+}
+main {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 13px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+video {
+    border: 3px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
