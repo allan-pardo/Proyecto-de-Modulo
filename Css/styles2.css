@@ -13,14 +13,18 @@ body{
     
         header .nav-link li{
             display: inline-block;
-            padding: 0 20px;
+            margin: 0 10px;
             list-style: none;
+        }
+        header .nav-link {
+            text-align: center;
+            padding: 0;
         }
     
         .Dic-img{
             background-color: azure;
-            width: 600px;
-            height: 370px;
+            width: 90%;
+            height: auto;
             border-radius: 15px;
             text-align: center;
             margin: 3px auto;
