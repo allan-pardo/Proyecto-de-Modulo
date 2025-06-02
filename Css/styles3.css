@@ -1,5 +1,5 @@
 body {
-    background-color: #A4E283;
+    background-color: #f6ffff;
     font-family: "Ubuntu", sans-serif;
     font-size: 16px;
     margin: 0;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #95B46A;
+    background-color: #007AE6;
     padding: 10px;
     text-align: center;
 }
@@ -45,7 +45,7 @@ header .nav-link li:hover {
 }
 
 header .nav-link a:hover {
-    color: rgb(13, 146, 13);
+    color: #8FD5EE;
 }
 
 header .btm button {
@@ -61,12 +61,12 @@ header .btm button {
 
 header .btm button:hover {
     background-color: #88ce27;
-    color: rgb(13, 146, 13);
+    color: #8FD5EE;
     transform: scale(1.1);
 }
 
 footer {
-    background-color: #32a852;
+    background-color: #004CFF;
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -86,7 +86,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #92dd94;
+    color: #8FD5EE;
 }
 
 .social-icons {
@@ -104,7 +104,7 @@ footer a:hover {
 }
 
 .in {
-    background-color: #C5FFB4;
+    background-color: #3066BE;
     max-width: 95%;
     margin: 30px auto;
     padding: 20px;
